@@ -1,0 +1,81 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\PC 08\\source\\repos\\Latian_LKS_Laundry\\Latian_LKS_Laundry\\Latian_LKS_Laundry.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\PC 08\\source\\repos\\Latian_LKS_Laundry\\Latian_LKS_Laundry\\Latian_LKS_Laundry.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\PC 08\\source\\repos\\Latian_LKS_Laundry\\Latian_LKS_Laundry\\Latian_LKS_Laundry.csproj",
+        "projectName": "Latian_LKS_Laundry",
+        "projectPath": "C:\\Users\\PC 08\\source\\repos\\Latian_LKS_Laundry\\Latian_LKS_Laundry\\Latian_LKS_Laundry.csproj",
+        "packagesPath": "C:\\Users\\PC 08\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PC 08\\source\\repos\\Latian_LKS_Laundry\\Latian_LKS_Laundry\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PC 08\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\PC 08\\.nuget\\packages\\system.data.sqlclient\\4.8.5": {},
+          "C:\\Users\\PC 08\\.nuget\\packages\\xact.core.pcl\\0.0.5014": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
+            },
+            "XAct.Core.PCL": {
+              "target": "Package",
+              "version": "[0.0.5014, )"
+            },
+            "dotnetCHARTING.Net6": {
+              "target": "Package",
+              "version": "[10.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
